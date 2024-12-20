@@ -1,0 +1,9 @@
+Error
+ git push
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/AdnanNisar168/-SimpliLearn-MEAN-Stack.git/'
+===================================================================
+Solution:
+	$ git remote set-url origin git@github.com:AdnanNisar168/-SimpliLearn-MEAN-Stack.git
+i have just change the url or github repository
